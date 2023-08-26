@@ -9,7 +9,7 @@ public abstract class Die {
     private DieValue[] sides;
 
     //visto no package
-    protected Die(DieValue[] sides) {
+    protected Die(DieValue[] sides) { //obriga a fornecer os dados para os lados do dado
         this.sides = sides;
     }
 
